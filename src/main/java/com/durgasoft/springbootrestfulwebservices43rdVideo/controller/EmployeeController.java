@@ -57,6 +57,7 @@ public class EmployeeController {
 		System.out.println("createEmployee method in EmployeeController");
 		Employee savedEmployee = employeeService.saveEmployee(employee);
 		System.out.println("Saved Emoployee Id:"+savedEmployee.getId());
+		System.out.println("Saved Emoployee Id:"+savedEmployee.getId());
 		
 		//CREATED
 		//employees/{id}
